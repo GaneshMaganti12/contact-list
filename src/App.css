@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.contact-container{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-card{
+    background-color: white;
+    min-width: 400px;
+    max-height: 575px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading{
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.input{
+    height: 22px;
+    outline: none;
+}
+.save-btn{
+    align-self: center;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #1b78bf;
+    font-size: 14px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 14px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+.list-container{
+    list-style-type: none;
+    padding-left: 0px;
+    overflow-y: scroll;
+    max-height: 320px;
 }
